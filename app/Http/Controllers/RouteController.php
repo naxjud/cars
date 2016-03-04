@@ -13,7 +13,7 @@ class RouteController extends Controller
     //
     public function getRoute(){
 
-        $routes = CRoute::all();
+        $routes = CRoute::paginate(10);
 
         return view('routes/index',compact('routes'));
 
@@ -23,9 +23,7 @@ class RouteController extends Controller
 
         $search = $request->input('croute');
 
-        $routes = CRoute::where('Route', 'LIKE','%$search%')->get();
-
-        dd($routes);
+        $routes = CRoute::where('Route','LIKE',"%$search%")->paginate(10);
 
         return view('routes/index',compact('routes','search'));
 

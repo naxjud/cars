@@ -16,18 +16,18 @@
                 </div>
             </form>
         </div>
-
+        <hr>
         @foreach ($routes as $route)
             <div class="row">
-                <div class="well">
-                    <h4>ID</h4>{{ $route->Method }}<br>
-                    <h4>Route</h4>{{ $route->Route }}<br>
-                    <h4>Controller</h4>{{ $route->Controller }}<br>
-                    <h4>Action</h4>{{ $route->Action }}<br>
+                <div class="well col-md-8">
+                    <strong>ID</strong> :{{ $route->Method }}<br>
+                    <strong>Route</strong> :{{ $route->Route }}<br>
+                    <strong>Controller</strong> :{{ $route->Controller }}<br>
+                    <strong>Action</strong> :{{ $route->Action }}<br>
                 </div>
             </div>
 
         @endforeach
-
+        <?php echo $routes->links(); ?>
     </div>
 @endsection
