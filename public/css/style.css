@@ -1,0 +1,120 @@
+.navbar {
+    background-color: #e7e7e7;
+    width: 99%;
+}
+.dropdown-menu{
+    background-color: #e7e7e7;
+    color:#444;
+    text-align: center;
+}
+
+.row{
+    margin: 0;
+}
+
+.dropdown-menu a{
+    text-decoration: none;
+    color: inherit;
+    margin-top:10px;
+}
+.dropdown-menu li:hover{
+    background: #fff;
+}
+.wrapper{
+    background: white;
+}
+
+.dropdown-menu li{
+    width: auto;
+    padding-bottom: 5px;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #444;
+}
+
+.row > div > img { width: 100%; display: block; }
+
+body {
+  margin-top: 20px;
+  background: #e4e4e4;
+}
+
+#logo{
+    margin: 10px;
+}
+
+/*
+.well{
+  background:rgba(255,255,255,0.9);
+}
+.aboutme {
+  font-size: 20px;
+  margin-top: 50px;
+  color:black;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#top {
+  background: url('http://1.bp.blogspot.com/-GJd6ZRBWQNI/Uh9Uux9HcfI/AAAAAAAAEF0/eexzgeSrpcE/s1600/Background-Graphic2.jpg') no-repeat;
+  background-size: 1720px auto;
+	height: 800px;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+  padding: 40px 0px;
+}
+#secabout{
+  margin-top: 100px;
+}
+#top h1 {
+  font-size: 60px;
+  text-shadow: 0px 1px 2px #000000;
+    font-variant: small-caps;
+  font-family: 'Merriweather', serif;;
+}
+#top h2, h3{
+    font-variant: small-caps;
+}
+#self{
+  margin:50px 0 0 0;
+}
+h1,h2,h3,h4{
+  color:white;
+  text-shadow: 0px 1px 2px #000000;
+}
+
+#about {
+  background: url('http://2.bp.blogspot.com/-WZAu5LyPdzI/Uh9ZajMB5iI/AAAAAAAAEWM/Sn8GtPltD4k/s1600/Background-Graphics.jpg') no-repeat;
+  background-size: 1720px auto;
+  height:800px;
+  background-attachment: fixed;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 80px 0px;
+}
+#about h2{
+  color:gray;
+}
+
+#middle img{
+  border:2px solid white;
+  height:200px;
+  width:200px;
+}
+
+#projects {
+  background: url('http://3.bp.blogspot.com/-9UKkpDBmj6k/Uh9bBoXdDsI/AAAAAAAAEZc/bog2hOzDSuo/s1600/Background-Graphics7.jpg') no-repeat;
+  background-size: 1720px auto;
+	min-height: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+  padding: 40px;
+}
+
+footer{
+  color:gray;
+}
+*/
